@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         // Connect the navHostFragment with the BottomNavigationView.
         NavigationUI.setupWithNavController(navView, navController)
 
-        // Connect the navHostFragment with thsafee Toolbar.
+        // Connect the navHostFragment with the Toolbar.
         val appBarConfiguration = AppBarConfiguration(navController.graph)
         appBarConfiguration.topLevelDestinations.add(R.id.rateFragment)
         toolbar.setupWithNavController(navController, appBarConfiguration)
